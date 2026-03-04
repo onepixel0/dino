@@ -1,0 +1,40 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "public/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "type": "multiatlas",
+                "url": "public/dino-red.json",
+                "path": "public",
+                "key": "dino-red"
+            },
+            {
+                "url": "public/foreground.png",
+                "type": "image",
+                "key": "foreground"
+            },
+            {
+                "url": "public/tile.png",
+                "type": "image",
+                "key": "tile"
+            },
+            {
+                "url": "public/tree.png",
+                "type": "image",
+                "key": "tree"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}

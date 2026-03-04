@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "useDefineForClassFields": true,
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "allowJs": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "app/*": ["src/app/*"],
+            "game/*": ["src/game/*"],
+            "@/*": ["src/*"],
+            "~/*": ["./*"]
+        },
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "src/lib/*.js",
+        "@types/types.d.ts"
+    ],
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}

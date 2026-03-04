@@ -1,0 +1,10 @@
+.distanceBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+
+    font-family: 'Tiny5';
+    font-size: 42px;
+    color: #000;
+}

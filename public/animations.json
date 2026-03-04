@@ -1,0 +1,168 @@
+{
+    "anims": [
+        {
+            "key": "dino_walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "dino-red",
+                    "frame": "walk_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "walk_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "walk_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "walk_04",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "walk_05",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "walk_06",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "dino_run",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "dino-red",
+                    "frame": "run_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "run_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "run_04",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "run_06",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "run_07",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "run_08",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "dino_damage",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "dino-red",
+                    "frame": "damage_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "damage_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "damage_03",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "dino_idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "dino-red",
+                    "frame": "idle_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "idle_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "idle_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "dino-red",
+                    "frame": "idle_04",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}
