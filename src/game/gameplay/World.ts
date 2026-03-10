@@ -1,9 +1,9 @@
 import { storage } from '@/shared/storage'
 import { Background } from './Background'
-import { Dino } from '../core/Dino'
-import { Ground } from '../core/Ground'
-import { Obstacles } from '../core/Obstacles'
-import { Camera } from '../core/Camera'
+import { Dino } from '../gameplay/Dino'
+import { Ground } from '../gameplay/Ground'
+import { Obstacles } from '../gameplay/Obstacles'
+import { Camera } from '../gameplay/Camera'
 
 export class World {
     private bg: Background
